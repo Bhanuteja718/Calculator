@@ -1,1 +1,2 @@
-#include <stidio.h)
+#include <stidio.h>
+#include <stringh.h>
