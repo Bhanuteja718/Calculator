@@ -1,3 +1,4 @@
+//Calculator program using C language 
 #include<stdio.h>
 #include <math.h>
 float add (float a,float b) {
@@ -41,6 +42,7 @@ int main(){
             printf("Enter Second Number:");
             scanf("%f", &num2);
         }
+        //using switch case
         switch (choice){
             case 1:
                     printf("Result = %.2f\n",add(num1,num2));
@@ -64,4 +66,5 @@ int main(){
         while (choice !=5);
     
 return 0;
+
 }
